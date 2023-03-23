@@ -62,7 +62,14 @@
 			<version>1.11.1</version>
 		</dependency>
 	</dependencies>
-
+	
+	<distributionManagement>
+  <repository>
+    <id>repo</id>
+    <name>AvroToJavaConversion</name>
+    <url>https://github.com/vishwsingh/AvroToJavaConversion</url>
+  </repository>
+</distributionManagement>
 
 	<repositories>
 		<repository>
